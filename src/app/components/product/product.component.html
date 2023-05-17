@@ -1,0 +1,12 @@
+<ng-container *ngIf="product">
+    <h2>{{product.title}}</h2>>
+    <p><b>Id:</b>${{product.id}}</p>
+    <p><b>Price: </b>${{product.price}}</p>
+    <p><b>Category: </b>{{product.category}}</p>
+    <p><b>Description: </b>{{product.description}}</p>
+    <img [src]="product.image"/>
+</ng-container>
+
+<ng-container *ngiF="!product">
+    Producto no encontrado
+</ng-container>

@@ -1,0 +1,31 @@
+.form-container{
+  max-height: 100%;
+  max-width: 100%;
+  align-items: start;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    padding: 20px;
+
+  }
+  .right-label{
+    text-align: right;
+  }
+  input.right-label::-webkit-outer-spin-button,
+  input.right-label::-webkit-inner-spin-button{
+    display: none;
+  }
+
+  .boton {
+    margin-top: 1rem;
+  }
+
+  .mat-form-field {
+    width: auto;
+    margin-top: 1rem;
+    
+  }
+  
